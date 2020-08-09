@@ -1,4 +1,6 @@
 package com.example.domain
 
-class BaseUseCase {
+abstract class BaseUseCase<I, O> {
+
+    abstract suspend fun run(input: I): O
 }
