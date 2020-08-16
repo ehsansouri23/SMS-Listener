@@ -3,4 +3,5 @@
     <string name="server_url">Server URL</string>
     <string name="submit">Submit</string>
     <string name="empty_url">URL cannot be empty</string>
+    <string name="listening_to_SMSs">Listening to SMSs</string>
 </resources>
