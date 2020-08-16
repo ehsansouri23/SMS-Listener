@@ -2,5 +2,5 @@ package com.example.domain.sms
 
 interface SMSRepository {
 
-    suspend fun sendSMS(smsList: List<SMSModel>): Boolean
+    suspend fun sendSMS(url: String, smsList: List<SMSModel>): Boolean
 }
